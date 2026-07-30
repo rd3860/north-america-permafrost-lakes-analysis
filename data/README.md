@@ -30,14 +30,6 @@ Users who wish to reproduce the analysis should obtain the original datasets fro
 
 ```text
 
-## Large Spatial Dataset
-
-The full `GLRSED_NA.csv` file is approximately 125 MB and is not stored in this repository due to GitHub file-size limitations.
-
-To reproduce the spatial analysis, obtain the GLRSED dataset from its official source, prepare the North American subset, and save it locally as:
-
-```text
-data/raw/GLRSED_NA.csv
 data/raw/
 
 data/
@@ -49,3 +41,12 @@ data/
     ├── sample_lake.csv
     ├── sample_permafrost.csv
     └── weather_permafrost.csv
+
+## Large Spatial Dataset
+
+The full `GLRSED_NA.csv` file is approximately 125 MB and is not stored in this repository due to GitHub file-size limitations.
+
+To reproduce the spatial analysis, obtain the GLRSED dataset from its official source, prepare the North American subset, and save it locally as:
+
+```text
+data/raw/GLRSED_NA.csv
