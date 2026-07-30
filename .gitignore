@@ -1,0 +1,30 @@
+# Large raw datasets
+data/raw/
+GLRSED_NA*.csv
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+Add gitignore for raw data and temporary files
